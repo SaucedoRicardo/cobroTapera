@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .ios-button {
+    background-color: #00ff37;   
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ios-button:hover {
+    background-color: #01cf2e;
+    cursor: pointer;
+  }
+  
+  .ios-button:focus {
+    outline: none;
+  }
+  table {
+    width: 80%;
+    margin: 0;
+  }
+  
+  th,  td {
+    border: 1px solid black;
+    padding: 0px; /* Ajusta el valor de padding según tus necesidades */
+    text-align: left;
+    font-size: 20px;
+    box-sizing:border-box;
+  }
+
+  
