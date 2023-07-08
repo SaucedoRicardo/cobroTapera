@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: 300px;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -30,12 +30,23 @@ body {
     margin: 0;
   }
   
-  th,  td {
-    border: 1px solid black;
+td {
+    border-bottom: 1px solid black;
     padding: 0px; /* Ajusta el valor de padding según tus necesidades */
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     box-sizing:border-box;
+    width: 30px;
+  }
+  th {
+    border-bottom: 1px solid black;
+    padding: 0px; /* Ajusta el valor de padding según tus necesidades */
+    text-align: left;
+    font-size: 15px;
+    box-sizing:border-box;
+  }
+  td input[type="number"].small-input {
+    width: 50px; /* Ajusta el ancho según tus necesidades */
   }
 
   
